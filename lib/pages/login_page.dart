@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
       email: usernameController.text.trim(),
       password: passwordController.text.trim(),
     );
-    MaterialPageRoute(builder: (context) => HomePage());
+
   }
 
   @override
@@ -91,7 +91,13 @@ class LoginPage extends StatelessWidget {
 
                 // sign in button
                 MyButton(
-                  onTap: signUserIn,
+                  onTap: () async {
+                    await signUserIn();
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomePage()),
+                    );
+                  },
                 ),
 
                 const SizedBox(height: 50),
