@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951183719609",
+    "project_id": "miagedaiman",
+    "storage_bucket": "miagedaiman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951183719609:android:d5fb2867389410cbdcef68",
+        "android_client_info": {
+          "package_name": "com.example.miagedv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951183719609-ok3ofr00hfoes1ic2do0e60ufi121k1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx6x6QjqYBVTfgUKI0yKOVJAH8eqZ2l6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951183719609-ok3ofr00hfoes1ic2do0e60ufi121k1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
